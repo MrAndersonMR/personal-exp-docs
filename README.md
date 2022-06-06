@@ -44,3 +44,21 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+
+## commands
+
+npx create-react-app personal-exp-docs --use-yarn --template typescript
+
+yarn add gh-pages -D
+
+"homepage": "https://mrandersonmr.github.io/personal-exp-docs",
+"predeploy": "npm run build",
+"deploy": "gh-pages -d build"
+
+yarn predeploy
+yarn deploy
+
+yarn add bootstrap
+yarn add bootswatch
+yarn add bootstrap-icons
